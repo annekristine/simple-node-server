@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SubProject 1
+        </title>
+        	<meta name="author" content="Anne Kristine V. Alvarez">
+	       <meta name="description" content="CMSC 2 SubProject1">
+	       <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {
+            box-sizing: border-box;
+        }
+			
+	    body {
+				font-family: "Lucida Sans", sans-serif;  
+				text-align: center;
+				
+	    }
+        .whole {
+            height: 1500px;
+            width:1560px;
+            background-color:#FF7F50;
+            z-index:1;
+           
+            margin: 0px auto;
+            
+        }  
+        .header {
+            height:150px;
+            width:1560px;
+            background-color:#ADD8E6;
+            z-index:3;
+            position:fixed;
+            top:5px;
+            left:15px;
+            margin:0px auto;
+            
+        }   
+        .container {
+            height:1000px;
+            width:1500px;
+            background-color:#1E90FF;
+            z-index:2;
+            position:relative;
+            top:-1330px;
+            margin:0px auto;
+            padding-left:15px;
+            padding-right:15px;
+        }
+        
+        .box {
+            float:left;
+            height:150px;
+            width:750px;
+            background-color:#FFD700;
+            position:fixed;
+            top:5px;
+            left:15px;
+            z-index:9999;
+            
+        }
+        .footer {
+            height:100px;
+            width:1560px;
+            background-color:#8FBC8F;
+            position:relative;
+            top:-1120px;
+            left:5px;
+            z-index:3;
+        }
+        .containerngnav {
+            position:fixed;
+            right:11px;
+            top:5px;
+            height:150px;
+            width:810px;
+            background-color:black;
+            z-index:9998;
+            
+            
+        }
+        .nav a {
+            float:right;
+            width:200px;
+          
+            height: 50px;
+            text-decoration:none;
+            color:white;
+            background-color:#84befe;
+            border-right:2px solid white;
+            border-radius:0px 15px 0px 0px;
+            text-align:center;
+            z-index:9999;   
+            box-sizing:border-box;
+            z-index:9999;
+            
+        }
+        
+        .nav a:hover {    
+            background-color:red;
+            color:#84befe;
+        }   
+        .nav {
+            
+            position: fixed;
+            right:-65px;
+            top:80px;
+            z-index:9999;
+        }    
+        .h1 {
+            color: white;
+        }
+      
+       .clearfix:after {
+            display:block;
+            clear:both;
+        }
+ 
+/*----- Menu Outline -----*/
+       
+ 
+        .menu {
+            width:1000px;
+            margin:0px auto;
+        }
+ 
+        .menu li {
+            margin:0px;
+            list-style:none;
+            font-family:'Ek Mukta';
+        }
+ 
+        .menu a {
+            transition:all linear 0.15s;
+            color:#919191;
+        }
+ 
+        .menu li:hover > a, .menu .current-item > a {
+            text-decoration:none;
+            color:#be5b70;
+        }
+ 
+        .menu .arrow {
+            font-size:11px;
+            line-height:0%;
+        }
+ 
+/*----- Top Level -----*/
+        .menu > ul > li {
+           
+            display:inline-block;
+            position:relative;
+            font-size:19px;
+        }
+ 
+        .menu > ul > li > a {
+            padding:10px 40px;
+            display:inline-block;
+            text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+        }
+ 
+        .menu > ul > li:hover > a, .menu > ul > .current-item > a {
+            background:#2e2728;
+        }
+ 
+/*----- Bottom Level -----*/
+        .menu li:hover .dropdownevents {
+            z-index:1;
+            opacity:1;
+        }
+ 
+        .dropdownevents {
+            width:100%;
+            padding:5px 0px;
+            position:absolute;
+            top:100%;
+            left:0px;
+            z-index:-1;
+            opacity:0;
+            transition:opacity linear 0.15s;
+            box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+            background:#2e2728;
+        }
+ 
+        .dropdownevents li {
+            display:block;
+            font-size:16px;
+        }
+ 
+        .dropdownevents li a {
+            padding:10px 30px;
+            display:block;
+        }
+         
+        .dropdownevents li a:hover, .dropdownevents .current-item a {
+            background:#3e3436;
+        }
+       
+        </style>
+    </head>
+    <body>
+        <div class="whole"></div>
+           
+        <div class="header"></div>
+        <div class="box"></div>
+        <div class="container">
+                <h1>Early World Wide Web</h1> <br>
+                
+        
+        
+        </div>
+            
+        <div class="nav">
+            <nav class="menu">
+                <ul class="clearfix">
+        
+                    <li> <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/index.html">Home</a> </li>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">Events</a>
+                        <ul class="dropdownevents">
+                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/world-war-2.html">World War 2</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-protocols.html">Early Protocols</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/the-first-internet.html">The First Internet</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-world-wide-web.html">Early World Wide Web</a></li>
+                    </li>
+                    </ul>
+                    <li><a href="#">Sources</a></li>
+                </ul>
+            </nav>
+        
+        
+        </div>  
+        <div class="footer"></div>
+        
+        <div class="containerngnav"></div>
+        
+       
+        
+    </body>
+</html>
