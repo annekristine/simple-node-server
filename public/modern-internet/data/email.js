@@ -1,0 +1,11 @@
+document.getElementById('title').innerHTML = "The E-mail";
+document.getElementById('content1').innerHTML = "Also known as electronic mail, it is a method of exchanging digital messages from one user to another. In the modern world, this method operates using the internet. Other early systems require both users to be online for them to exchange messages but due to innovation, we use a store-and-forward model. ";
+document.getElementById('content2').innerHTML = "How it works?";
+document.getElementById('content2.1').innerHTML = "The user sends an email through the SMTP server as configured in their Mail User Agent like Yahoo and Gmail. To prevent delays in sending, each email should have the correct domain name systems, IP address and sequence number ";
+document.getElementById('content2.2').innerHTML = "On the SMTP server, the MTA(Mail Transfer Agent) checks the recipient address and looks at the domain part of the address to know the destination of the mail.";
+document.getElementById('content2.3').innerHTML = "Check at the Domain Name Server for the recipient’s domain name.";
+document.getElementById('content2.4').innerHTML = "Then, the SMTP server will send the message to that server through the Simple Mail Transfer Protocol.";
+document.getElementById('content2.5').innerHTML = "Then the receiver’s server will store the message and can be accessed through protocols like POP3 or IMAP.";
+document.getElementById('content3').innerHTML = "According to runbox.com, 'When an email server accepts a message it is obliged to deliver it, or otherwise return a delivery failure message to the sender. This ensures that an email message cannot disappear into thin air and implies that the sender of an email can trust the integrity of the email system.' But spam is a different case. ";
+document.getElementById('source').innerHTML = "<em>Sources:<br>https://www.oasis-open.org/khelp/kmlm/user_help/html/how_email_works.html<br>http://blog.onlymyemail.com/how-email-works/<br>https://en.wikipedia.org/wiki/Email#Types<br>http://computer.howstuffworks.com/e-mail-messaging/email.htm<br>https://runbox.com/email-school/how-email-works/</em>";
+document.getElementById('footer1').innerHTML = "Anne Kristine V. Alvarez<br>2012-59435";

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'
         <title>
             SubProject 1
         </title>
@@ -13,87 +14,93 @@
         }
 			
 	    body {
-				font-family: "Lucida Sans", sans-serif;  
-				text-align: center;
+				font-family: "Playfair Display", cursive;
 				
 	    }
         .whole {
-            height: 1500px;
-            width:1560px;
-            background-color:#FF7F50;
+            height: 3200px;
+            width:1000px;
+            background-color:#558c89;
             z-index:1;
            
             margin: 0px auto;
             
         }  
         .header {
-            height:150px;
-            width:1560px;
-            background-color:#ADD8E6;
-            z-index:3;
-            position:fixed;
-            top:5px;
-            left:15px;
-            margin:0px auto;
+           height:200px;
+           width:1000px;
+           background-color:transparent;
+           z-index:3;
+           position:fixed;
+           top:2px;
+           left:8px;
             
         }   
-        .container {
-            height:1000px;
-            width:1500px;
-            background-color:#1E90FF;
-            z-index:2;
-            position:relative;
-            top:-1330px;
-            margin:0px auto;
-            padding-left:15px;
-            padding-right:15px;
-        }
-        
-        .box {
+       
+         .box {
             float:left;
-            height:150px;
-            width:750px;
-            background-color:#FFD700;
-            position:fixed;
-            top:5px;
-            left:15px;
+            height:120px;
+            width:1000px;
+            background-color:#74afad;
+            position:relative;
+            top:0px;
+            left:0px;
             z-index:9999;
             
-        }
-        .footer {
-            height:100px;
-            width:1560px;
-            background-color:#8FBC8F;
-            position:relative;
-            top:-1120px;
-            left:5px;
-            z-index:3;
-        }
+        }   
         .containerngnav {
-            position:fixed;
-            right:11px;
-            top:5px;
-            height:150px;
-            width:810px;
-            background-color:black;
+            position:relative;
+            left:0px;
+            top:105px;
+            height:80px;
+            width:1000px;
+            background-color:#74afad;
             z-index:9998;
             
             
         }
+        
+            
+        
+        .container {
+            height:2800px;
+            width:1000px;
+            background-color:#d9853b;
+            z-index:2;
+            position:relative;
+            top:-3015px;
+            margin:0px auto;
+            padding-left:15px;
+            padding-right:15px;
+            font-size:20px;
+            color: white;
+        }
+        
+        
+        .footer {
+            height:100px;
+            width:1000px;
+            background-color:#74afad;
+            position:relative;
+            top:-2920px;
+            left:0px;
+            z-index:1;
+            color:white;
+            text-align:center;
+        }
+        
         .nav a {
             float:right;
-            width:200px;
-          
-            height: 50px;
+            width:220px;
+            height: 40px;
             text-decoration:none;
             color:white;
-            background-color:#84befe;
-            border-right:2px solid white;
-            border-radius:0px 15px 0px 0px;
+            background-color:#d9853b;
             text-align:center;
             z-index:9999;   
             box-sizing:border-box;
-            z-index:9999;
+            
+            margin-right:3px;
             
         }
         
@@ -103,13 +110,18 @@
         }   
         .nav {
             
-            position: fixed;
-            right:-65px;
-            top:80px;
+            position: relative;
+            left:0px;
+            top:-90px;
             z-index:9999;
+            padding-left:3px;
+            border-collapse:separate;
+            
+           
         }    
         .h1 {
             color: white;
+            
         }
       
        .clearfix:after {
@@ -128,12 +140,12 @@
         .menu li {
             margin:0px;
             list-style:none;
-            font-family:'Ek Mukta';
+            font-family:'Playfair Display';
         }
  
         .menu a {
             transition:all linear 0.15s;
-            color:#919191;
+            color:#ececea;
         }
  
         .menu li:hover > a, .menu .current-item > a {
@@ -196,27 +208,37 @@
         .dropdownevents li a:hover, .dropdownevents .current-item a {
             background:#3e3436;
         }
-       
+        .p { 
+            z-index:9999;
+            text-align:justify;
+            text-indent:50px;
+            
+            
+        }
+       .h1 {
+           text-align: center;
+       }
+       img.center{
+            display: block;
+            margin: auto;
+       }
+       .h5 {
+           color:green;
+       }
         </style>
     </head>
     <body>
         <div class="whole"></div>
            
-        <div class="header"></div>
-        <div class="box"></div>
-        <div class="container">
-                <h1>ARPANET: The First Internet</h1> <br>
-                
-        
-        
-        </div>
-            
-        <div class="nav">
+        <div class="header">
+                <div class="box"></div>
+                <div class="containerngnav">
+                 <div class="nav">
             <nav class="menu">
                 <ul class="clearfix">
         
                     <li> <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/index.html">Home</a> </li>
-                    <li><a href="#">Timeline</a></li>
+                    <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/timeline.html">Timeline</a></li>
                     <li><a href="#">Events</a>
                         <ul class="dropdownevents">
                             <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/world-war-2.html">World War 2</a></li>
@@ -225,17 +247,91 @@
                             <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-world-wide-web.html">Early World Wide Web</a></li>
                     </li>
                     </ul>
-                    <li><a href="#">Sources</a></li>
+                    
                 </ul>
             </nav>
         
-        
+        </div>
         </div>  
-        <div class="footer"></div>
+        </div>        
+   </div>
+        <div class="container">
+                <br><h1>The First Internet</h1>
+                    <h5><em> “This ARPA program has created no less than a revolution in computer technology and has been
+                     one of the most successful projects ever undertaken by ARPA. The full impact of the technical 
+                     changes set in motion by this project may not be understood for many years.”<br>
+                    -- from ARPANET Completion Report, January 3, 1978</em> </h5>
+                    <p>ARPANET became the foundation of the modern internet; internet as a word wasn’t even known 
+                    before. It was developed in 1969 that’s why the generation today might not even know what it is. 
+                    ARPA (Advanced Research Project Agency) has a goal of linking computers together to decentralize 
+                    the information storage and thus, brilliant people were able to create the first internet.</p>
+                   <p> It uses the packet switching system for sending files wherein these are broken into small pieces
+                    called packets and travel using different routes to reach their destination. When this method is 
+                    compared with circuit switching, it is more time consuming, but is good for security purposes. 
+                    Since it is not in order when received, it takes longer time to assemble but it lessens the success 
+                    or probability of a hacker to receive the whole file. </p>
+                   <br> <h3>TIMELINE </h3>
+                    		To better understand how ARPANET was created, here’s a timeline of events. <br>
+                    <h4>	1962 </h4>
+                    -	J.C.R. Licklider’s concept called Intergalactic Network where he envisioned an interconnected 
+                    network where everyone can access files or communicate with each other anywhere.<br>
+                    <h4>	1963 </h4>
+                    -	JCR Licklider contracted organizations like UCLA, MIT and BBN to give life to his concept, 
+                    to create the “internet”.<br>
+                    -	ASCII (American Standard Code for Information Exchange) was created to regulate the machines 
+                    from different manufacturers for exchanging data. It was the first universal standard for computers.<br> 
+                    <h4>1964 </h4>
+                    -	Development of Multics timesharing operating system. <br>
+                    <h4>1965 </h4>
+                    -	PDP-8, the first commercially successful minicomputer that was small enough to be placed on a 
+                    desktop, was unveiled<br>
+                    -	The first wide area connection which was funded by ARPA was created by Larry Roberts and Thomas
+                    Marill.<br>
+                    -	JOSS(Johnniac Open Shop System) goes online which  allow online computational problem solving.<br>
+                    <h4>1966</h4>
+                    -	Bob Taylor with the help of Charles Herzfeld, was able to connect 3 computer systems research sites around 
+                    the nation by linking all the contractors.<br>
+                    <h4>1967</h4>
+                    -	There was a conference that brought all the ARPA researchers together. One suggested using the 
+                    Interface Message Processors (IMP) to manage the interconnected network. This processor evolved into 
+                    the routers that we have today. <br>
+                    <h4>1968 </h4>
+                    -	The network measurement system at the UCLA was prepared by Kleinrock’s system. This became the 
+                    site of the first node.<br>
+                    <h4>1969</h4>
+                    -	In October 30, the first message was sent over the internet.  Kleinrock supervised Kline, a student
+                    in the setting up of a message transmission from UCLA host to Bill Duvall’s host. The message “login” 
+                    was the intended one but only “lo” was received since the system crashed on “g”. <br>
+                    <h4>1970</h4>
+                    -	Nodes were added to the ARPANET one per month.<br>
+                    -	NCP(Network Control Progam) was created, the initial ARPANET host-to-host protocol.<br>
+                    <h4>1971</h4>
+                    -	The Telnet protocol was completed while the FTP was still in the works.<br>
+                    -	Intel released the 4004, the first computer on a chip.<br>
+                    <h4>1972</h4>
+                    -	Ray Tomlinson began developing the program of enabling e-mail be sent over the ARPAnet. He also 
+                    developed the user@host convention. <br>
+                    <h4>1973</h4>
+                    -	30 institutions were connected with ARPAnet<br>
+                    -	Bob Kahn and Vint Cerf proposed the TCP (Transmission Control Protocol).<br>
+                    -	Bob Metcalfe was working on a wire-based system which eventually became Ethernet.<br>
+                    <h4>1976</h4>
+                    -	Seymour Cray demonstrated the first-vector processor supercomputer called CRAY-1.<br>
+                    <h4>1978</h4>
+                    -	The ARPANET experiment was formally completed.<br><br>
+                    <strong>Source:</strong>
+                  <a href=" http://www.computerhistory.org/internet_history/internet_history_70s.html"><h5><em> http://www.computerhistory.org/internet_history/internet_history_70s.html</h5></em></a>
+                    
+                                
+                            
         
-        <div class="containerngnav"></div>
+        </div>
+            
+       
+        <div class="footer">Anne Kristine V. Alvarez <br> 2012-59435</div>
+        
+        
         
        
-        
     </body>
 </html>

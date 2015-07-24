@@ -1,9 +1,22 @@
 <html>
     <head>
-        <title>This is my first Javascript</title>
+        <title>Javascript Exercise</title>
     </head>
-    <body>
-        <h1>My first Javascript</h1>
-        <p id="demo"></p>
-    </body>
+<body>
+
+<h1>My first Javscript</h1>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<a href="#"
+onclick="clickme()">
+Click Me!</a>
+
+<script>
+function clickme() {
+  document.getElementById('demo').innerHTML = 'Hello World'
+}
+</script>
+
+</body>
 </html>

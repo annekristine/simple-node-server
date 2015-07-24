@@ -1,0 +1,19 @@
+document.getElementById('title').innerHTML = "Network Protocols";
+
+document.getElementById('smtp').innerHTML = "<strong>SMTP (Simple Mail Transfer Protocol)</strong>";
+document.getElementById('contentsmtp').innerHTML = "This protocol is involved in sending and receiving electronic mail messages between e-mail servers and other agents But in the case of user-client based mail applications, SMTP is only used for sending messages to a mail server for relaying. ";
+document.getElementById('pop3').innerHTML = "<strong>POP3 (Post Office Protocol)</strong>";
+document.getElementById('contentpop3').innerHTML = "This protocol is used for retrieving or receiving e-mail from the mail server. Its design is that it downloads all available email in the server from the email client, and then deletes the email from the server. An advantage of POP3 over IMAP is that you can access it even when you are offline.";
+document.getElementById('imap').innerHTML = "<strong>IMAP (Internet Message Access Protocol)</strong>";
+document.getElementById('contentimap').innerHTML = "This protocol is like POP3, which is used for retrieving e-mail from the mail server. Its difference from POP3 is that it stores mail on the mail server, unlike POP3 which downloads the email locally. Like POP3, it downloads the messages from the mail server but it allows the user to keep their email on the server.";
+document.getElementById('source1').innerHTML = "<em>Source:<br> http://www.serversmtp.com/en/free-smtp-server <br> https://www.hmailserver.com/documentation/latest/?page=whatis_pop3imapsmtp <br> http://www.active-server.com/blog/differences-between-imap-pop-and-smtp/</em>";
+document.getElementById('http').innerHTML = "<strong>HTTP (Hypertext Transfer Protocol)</strong>";
+document.getElementById('contenthttp').innerHTML = "You can commonly see this when you’re accessing the internet because this protocol is used in the World Wide Web. It is in control of how messages are designed and transmitted and what should the web browsers and servers do in response to commands. This protocol is also called as a stateless protocol because each is executed independently.  ";
+document.getElementById('source2').innerHTML = "<em>Source: http://www.webopedia.com/TERM/H/HTTP.html<br>http://www.antipope.org/charlie/old/attic/webbook/ch3http/part2.html</em>";
+document.getElementById('mtp').innerHTML = "<strong>MTP (Media Transfer Protocol)</strong>";
+document.getElementById('contentmtp').innerHTML = "This protocol is an extension of PTP (Picture Transfer Protocol) which allows media files to be transferred to and from devices. It became a part of the framework of the Windows Media Player and files are transferred originally through USB but lately included TCP/IP and Bluetooth. ";
+document.getElementById('source3').innerHTML = "<em>Source: http://www.androidcentral.com/ics-feature-mtp-what-it-why-use-it-and-how-set-it<br>https://en.wikipedia.org/wiki/Media_Transfer_Protocol<br>https://www.segger.com/pr-emusb-device-mtp.html</em>";
+document.getElementById('nntp').innerHTML = "<strong>NNTP ( Network News Transfer Protocol)</strong>";
+document.getElementById('contentnntp').innerHTML = "This protocol is used for transferring Usenet news articles between servers and for posting and reading articles through end user client applications. It was similar to the SMTP(Simple Mail Transfer Protocol).";
+document.getElementById('source4').innerHTML = "<em>Source: https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol<br>http://www.thenetworkencyclopedia.com/entry/usenet/ </em>";
+document.getElementById('footer1').innerHTML = "Anne Kristine V. Alvarez<br>2012-59435";

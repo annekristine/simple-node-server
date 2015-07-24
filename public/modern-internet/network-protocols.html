@@ -2,10 +2,8 @@
 <html>
     <head>
         <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'
-        <title>
-            SubProject 1
-        </title>
-        	<meta name="author" content="Anne Kristine V. Alvarez">
+        
+           <meta name="author" content="Anne Kristine V. Alvarez">
 	       <meta name="description" content="CMSC 2 SubProject1">
 	       <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
@@ -18,16 +16,16 @@
 				
 	    }
         .whole {
-            height: 1200px;
+            height: 2250px;
             width:1000px;
-            background-color:#558c89;
+            background-color:#7d1935;
             z-index:1;
            
             margin: 0px auto;
             
         }  
         .header {
-           height:200px;
+           height:150px;
            width:1000px;
            background-color:transparent;
            z-index:3;
@@ -39,9 +37,9 @@
        
          .box {
             float:left;
-            height:120px;
+            height:90px;
             width:1000px;
-            background-color:#74afad;
+            background-color:#7d1935;
             position:relative;
             top:0px;
             left:0px;
@@ -51,10 +49,10 @@
         .containerngnav {
             position:relative;
             left:0px;
-            top:105px;
+            top:75px;
             height:80px;
             width:1000px;
-            background-color:#74afad;
+            background-color:#7d1935;
             z-index:9998;
             
             
@@ -63,26 +61,27 @@
             
         
         .container {
-            height:800px;
+            height:1850px;
             width:1000px;
-            background-color:#d9853b;
+            background-color:#f0f0e0;
             z-index:2;
             position:relative;
-            top:-1010px;
+            top:-2050px;
             margin:0px auto;
             padding-left:15px;
             padding-right:15px;
             font-size:20px;
-            color: white;
+            text-indent:50px;
+            color: black;
         }
         
         
         .footer {
             height:100px;
             width:1000px;
-            background-color:#74afad;
+            background-color:#4a96ad;
             position:relative;
-            top:-940px;
+            top:-1970px;
             left:0px;
             z-index:1;
             color:white;
@@ -95,7 +94,7 @@
             height: 40px;
             text-decoration:none;
             color:white;
-            background-color:#d9853b;
+            background-color:#84befe;
             text-align:center;
             z-index:9999;   
             box-sizing:border-box;
@@ -112,7 +111,7 @@
             
             position: relative;
             left:0px;
-            top:-90px;
+            top:-70px;
             z-index:9999;
             padding-left:3px;
             border-collapse:separate;
@@ -145,7 +144,7 @@
  
         .menu a {
             transition:all linear 0.15s;
-            color:#ececea;
+            color:#f5f3ee;
         }
  
         .menu li:hover > a, .menu .current-item > a {
@@ -208,22 +207,22 @@
         .dropdownevents li a:hover, .dropdownevents .current-item a {
             background:#3e3436;
         }
-        p { 
+        .p { 
             z-index:9999;
             text-align:justify;
-            text-indent:50px;
             
             
         }
        .h1 {
            text-align: center;
        }
-      img {
-          padding-right:25px;
-      }
-      .licklider {
-          padding-right:0px;
-      }
+       .h6 {
+           font-style:italic;
+       }
+       img.center{
+            display: block;
+            margin: auto;
+       }
         </style>
     </head>
     <body>
@@ -236,14 +235,17 @@
             <nav class="menu">
                 <ul class="clearfix">
         
-                    <li> <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/index.html">Home</a> </li>
-                    <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/timeline.html">Timeline</a></li>
-                    <li><a href="#">Events</a>
+                    <li> <a href="http://simple-node-server.annekristine.c9.io/modern-internet/index.html">Home</a> </li>
+                    <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/timeline.html">Timeline</a></li>
+                    <li><a href="#">Topics</a>
                         <ul class="dropdownevents">
-                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/world-war-2.html">World War 2</a></li>
-                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-protocols.html">Early Protocols</a></li>
-                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/the-first-internet.html">The First Internet</a></li>
-                            <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-world-wide-web.html">Early World Wide Web</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/email.html">E-mail</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/network-protocols.html">Network Protocols</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/search-engines.html">Search Engines</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/blogging.html">Blogging</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/video-streaming.html">Video Streaming</a></li>
+                            <li><a href="http://simple-node-server.annekristine.c9.io/modern-internet/microblog-social-networking.html">Social Networking</a></li>
+                           
                     </li>
                     </ul>
                     
@@ -255,29 +257,44 @@
         </div>        
    </div>
         <div class="container">
-                <br><h1>World War 2</h1> <br>
-                <p>In time of chaos, maintaining communication is very important, especially in a war involving many 
-                 powerful countries. To communicate, they used radios that work by sending electromagnetic waves to 
-                 the received to send information. Then, researchers will decrypt this information for the military 
-                 people.  With such need for communication, World War 2 and the Cold War have been very vital in the 
-                 creation of the internet. You may have asked “What happened in the World War 2 and Cold War that urged 
-                 them to create the internet?<br> Well,<strong> Sputnik 1</strong> happened. </p>
-            	<p><img src="sputnik.jpg" width="300px" height="150px" align="left"><br>In the 4th of October 1957, Sputnik 1, the first official satellite was launched in space by the 
-            	Soviet Union. This event led to a space race and ignited a constant scare of nuclear attack on the 
-            	opposing team, which includes the US. The terror caused by the Sputnik was due to the electromagnetic 
-            	pulse, which is a result or consequence of nuclear fallout. Also, it will hinder communication through 
-            	radios. </p>
-                <p>We should thank this man's brain <img src="jcr licklider.jpg" width="100px" height="100px" align="middle" class="licklider"> for in 1962, <strong> J.C.R. Licklider </strong>proposed a concept of a network of computers that could communicate 
-                to each other. To help maintain communication and prevent the nuclear attack, <strong>ARPANET</strong> was created by 
-                DARPA (Defense Advanced Research Projects Agency) in 1966. </p>
-      
+            <br>
+                <h1 id="title"></h1>
+                
+                <img src="data/smtp1.png" width=400px height=400px align="left">
+                
+                <p id="smtp"></p>
+                <p id="contentsmtp"></p><br>
+                <p id="pop3"></p>
+                <p id="contentpop3"></p><br>
+                <p id="imap"></p>
+                <p id="contentimap"></p>
+                <h6 id="source1"></h6><br>
+                <img src="data/http.gif" width=300px height=300px align="right">
+                <p id="http"></p>
+                <p id="contenthttp"></p>
+                <h6 id="source2"></h6><br>
+                <img src="data/mtp.jpg" width=300px height=300px align="left"><br>
+                <p id="mtp"></p>
+                <p id="contentmtp"></p>
+                <h6 id="source3"></h6><br>
+                <img src="data/nntp.jpg" width=200px height=200px align="right">
+                <p id="nntp"></p>
+                <p id="contentnntp"></p>
+                <h6 id="source4"></h6>
+               
+                
+            
+            
+                        
         
         
         </div>
             
        
-        <div class="footer">Anne Kristine V. Alvarez<br>2012-59435</div>
-        
+        <div class="footer">
+            <p id="footer1"></p>
+        </div>
+        <script src="data/network-protocols.js"></script>
         
         
        

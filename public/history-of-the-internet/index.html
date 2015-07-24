@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            SubProject 1
-        </title>
-        	<meta name="author" content="Anne Kristine V. Alvarez">
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'
+        
+           <meta name="author" content="Anne Kristine V. Alvarez">
 	       <meta name="description" content="CMSC 2 SubProject1">
 	       <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
@@ -13,87 +12,95 @@
         }
 			
 	    body {
-				font-family: "Lucida Sans", sans-serif;  
-				text-align: center;
+				font-family: "Playfair Display", cursive;
 				
 	    }
         .whole {
-            height: 1500px;
-            width:1560px;
-            background-color:#FF7F50;
-            z-index:1;
-           
-            margin: 0px auto;
-            
-        }  
+                    height: 1500px;
+                    width:1000px;
+                   
+                    background-color:#558c89;
+                    
+                    z-index:1;
+                   
+                    margin: 0px auto;
+                    
+                }  
         .header {
-            height:150px;
-            width:1560px;
-            background-color:#ADD8E6;
-            z-index:3;
-            position:fixed;
-            top:5px;
-            left:15px;
-            margin:0px auto;
+           height:200px;
+           width:1000px;
+           background-color:transparent;
+           z-index:3;
+           position:fixed;
+           top:2px;
+           left:8px;
             
         }   
-        .container {
-            height:1000px;
-            width:1500px;
-            background-color:#1E90FF;
-            z-index:2;
-            position:relative;
-            top:-1330px;
-            margin:0px auto;
-            padding-left:15px;
-            padding-right:15px;
-        }
-        
-        .box {
+       
+         .box {
             float:left;
-            height:150px;
-            width:750px;
-            background-color:#FFD700;
-            position:fixed;
-            top:5px;
-            left:15px;
+            height:120px;
+            width:1000px;
+            background-color:#74afad;
+            position:relative;
+            top:0px;
+            left:0px;
             z-index:9999;
             
-        }
-        .footer {
-            height:100px;
-            width:1560px;
-            background-color:#8FBC8F;
-            position:relative;
-            top:-1120px;
-            left:5px;
-            z-index:3;
-        }
+        }   
         .containerngnav {
-            position:fixed;
-            right:11px;
-            top:5px;
-            height:150px;
-            width:810px;
-            background-color:black;
+            position:relative;
+            left:0px;
+            top:105px;
+            height:80px;
+            width:1000px;
+            background-color:#74afad;
             z-index:9998;
             
             
         }
+        
+            
+        
+        .container {
+            height:1100px;
+            width:1000px;
+            background-color:#d9853b;
+            color:white;
+            z-index:2;
+            position:relative;
+            top:-1300px;
+            margin:0px auto;
+            padding-left:15px;
+            padding-right:15px;
+            font-size:20px;
+        }
+        
+        
+        .footer {
+            height:100px;
+            width:1000px;
+            background-color:#74afad;
+            position:relative;
+            top:-1220px;
+            left:0px;
+            z-index:1;
+            color:white;
+            text-align:center;
+        }
+        
         .nav a {
             float:right;
-            width:200px;
-          
-            height: 50px;
+            width:220px;
+            height: 40px;
             text-decoration:none;
-            color:white;
-            background-color:#84befe;
-            border-right:2px solid white;
-            border-radius:0px 15px 0px 0px;
+            color:black;
+            background-color:#d9853b;
             text-align:center;
             z-index:9999;   
             box-sizing:border-box;
-            z-index:9999;
+            
+            margin-right:3px;
             
         }
         
@@ -103,13 +110,17 @@
         }   
         .nav {
             
-            position: fixed;
-            right:-65px;
-            top:80px;
+            position: relative;
+            left:0px;
+            top:-90px;
             z-index:9999;
+            padding-left:3px;
+            border-collapse:separate;
+            
         }    
         .h1 {
             color: white;
+            
         }
       
        .clearfix:after {
@@ -128,12 +139,12 @@
         .menu li {
             margin:0px;
             list-style:none;
-            font-family:'Ek Mukta';
+            font-family:'Playfair Display';
         }
  
         .menu a {
             transition:all linear 0.15s;
-            color:#919191;
+            color:#ececea;
         }
  
         .menu li:hover > a, .menu .current-item > a {
@@ -196,27 +207,34 @@
         .dropdownevents li a:hover, .dropdownevents .current-item a {
             background:#3e3436;
         }
+        .p { 
+            z-index:9999;
+            text-align:justify;
+            
+            
+        }
+       .h1 {
+           text-align: center;
+       }
+       img.center{
+            display: block;
+            margin: auto;
+       }
+      
        
         </style>
     </head>
     <body>
-        <div class="whole"></div>
-           
-        <div class="header"></div>
-        <div class="box"></div>
-        <div class="container">
-                <h1>History of the Internet</h1> <br>
-                
-        
-        
-        </div>
-            
-        <div class="nav">
+        <div class="whole"></div>   
+        <div class="header">
+                <div class="box"></div>
+                <div class="containerngnav">
+                 <div class="nav">
             <nav class="menu">
                 <ul class="clearfix">
         
                     <li> <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/index.html">Home</a> </li>
-                    <li><a href="#">Timeline</a></li>
+                    <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/timeline.html">Timeline</a></li>
                     <li><a href="#">Events</a>
                         <ul class="dropdownevents">
                             <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/world-war-2.html">World War 2</a></li>
@@ -225,17 +243,33 @@
                             <li><a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-world-wide-web.html">Early World Wide Web</a></li>
                     </li>
                     </ul>
-                    <li><a href="#">Sources</a></li>
+                    
                 </ul>
             </nav>
         
-        
+        </div>
         </div>  
-        <div class="footer"></div>
+        </div>        
+   </div>
+        <div class="container">
+                <br><h1>History of the Internet</h1> 
+                        <img src="evolution-of-the-internet1.jpg" width="600px" height="337px" class="center"><p>Do you ever wonder why people built the partner-of-every-human today called the internet? I bet they were very proud and didn't even imagined that it will be as big as it is today. 
+           Born from the concept or idea of connecting people for communication during the <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/world-war-2.html">World War 2 era</a> and in response to the fear of a nuclear strike, it continuously grew until it became 
+            like a shadow of everyone, as a very powerful tool today. From the exciting development of the first internet called the <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/the-first-internet.html">ARPANET</a> by the US to the many "first" events like a growing child, 
+            the interconnection to regional networks in the 1980s was a sign that modern internet has begun or also known as the pre-teen stage. Many of the generation today may not even recognize the face of the 
+            first internet. Through many changes that the internet has undergone in the puberty stage like the development of <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-protocols.html">protocols</a>, the addition of many browsers and web pages when the <a href="http://simple-node-server.annekristine.c9.io/history-of-the-internet/early-world-wide-web.html">World Wide Web</a> was created, increasing number of networks
+            connected, the internet has matured. Even though the internet has undergone so many changes, there are still vast opportunities and possibilities in the internet. It may die like a human being, but I think that it will evolve,
+            like humans, into something better, hopefully.  </p> 
+            
         
-        <div class="containerngnav"></div>
+        
+        </div>
+            
+       
+        <div class="footer">Anne Kristine V. Alvarez<br>2012-59435</div>
+        
+        
         
        
-        
     </body>
 </html>
